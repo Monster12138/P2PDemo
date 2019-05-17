@@ -29,7 +29,6 @@ int main()
     recv(sockfd, &local_addr.sin_port, sizeof(local_addr.sin_port), 0);
     printf("My ip: %s    port: %d\n", inet_ntoa(local_addr.sin_addr), ntohs(local_addr.sin_port));
 
-    getchar();
     close(sockfd);
 
     int listen_sockfd = socket(AF_INET, SOCK_STREAM, 0);
