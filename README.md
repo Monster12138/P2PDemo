@@ -7,11 +7,11 @@ cd p2p
 make
 ./server
 ```
-**copy a terminal
+** copy a terminal **
 ```
 ./client2
 ```
-**copy a terminal again
+** copy a terminal again **
 ```
 ./client1
 ```
